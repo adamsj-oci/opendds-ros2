@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.5)
 
-project(opendds)
+project(opendds-ros2)
 
 execute_process(
   COMMAND ./configure --prefix=${CMAKE_INSTALL_PREFIX} --doc-group
